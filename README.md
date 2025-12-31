@@ -126,6 +126,25 @@ A modern, responsive Flutter app for browsing cars, filtering and sorting, booki
 - Launch app:
   - `flutter run`
 
+## Live Demo (GitHub Pages)
+
+- This repo is configured to build Flutter Web and deploy to GitHub Pages on each push to `main`.
+- After pushing to `main`, your app will be available at:
+  - `https://<your-github-username>.github.io/<repository-name>/`
+- Workflow file: [.github/workflows/deploy_web.yml](file:///r:/car_rental/.github/workflows/deploy_web.yml)
+- Notes:
+  - Uses `--base-href "/<repo>/"` for correct asset paths on Pages
+  - No extra secrets needed; uses default `GITHUB_TOKEN`
+
+## Demo Video
+
+- Place your demo video at `assets/demo/demo.mp4`
+- Embedded preview in README:
+
+<video src="assets/demo/demo.mp4" controls poster="assets/images/car_tesla.svg" width="720">
+  Your browser does not support the video tag.
+</video>
+
 ## Troubleshooting
 
 - Network images not loading:
