@@ -130,7 +130,7 @@ A modern, responsive Flutter app for browsing cars, filtering and sorting, booki
 
 - This repo is configured to build Flutter Web and deploy to GitHub Pages on each push to `main`.
 - After pushing to `main`, your app will be available at:
-  - `https://<your-github-username>.github.io/<repository-name>/`
+  - https://ravendra1447.github.io/car-rental/
 - Workflow file: [.github/workflows/deploy_web.yml](file:///r:/car_rental/.github/workflows/deploy_web.yml)
 - Notes:
   - Uses `--base-href "/<repo>/"` for correct asset paths on Pages
@@ -138,12 +138,21 @@ A modern, responsive Flutter app for browsing cars, filtering and sorting, booki
 
 ## Demo Video
 
-- Place your demo video at `assets/demo/demo.mp4`
+- Place your demo video at `assets/demo/demo.mp4` (already configured in pubspec assets)
 - Embedded preview in README:
 
 <video src="assets/demo/demo.mp4" controls poster="assets/images/car_tesla.svg" width="720">
   Your browser does not support the video tag.
 </video>
+
+### Direct Links
+
+- Watch on GitHub (plays in browser):
+  - https://github.com/ravendra1447/car-rental/blob/main/assets/demo/demo.mp4
+- Raw file (better for embedding/streaming):
+  - https://github.com/ravendra1447/car-rental/raw/main/assets/demo/demo.mp4
+- Watch on GitHub Pages (after deploy):
+  - https://ravendra1447.github.io/car-rental/assets/demo/demo.mp4
 
 ## Troubleshooting
 
