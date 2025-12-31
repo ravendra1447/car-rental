@@ -141,7 +141,7 @@ A modern, responsive Flutter app for browsing cars, filtering and sorting, booki
 - Place your demo video at `assets/demo/demo.mp4` (already configured in pubspec assets)
 - Embedded preview in README:
 
-<video src="assets/demo/demo.mp4" controls poster="assets/images/car_tesla.svg" width="720">
+<video src="https://github.com/ravendra1447/car-rental/raw/main/assets/demo/demo.mp4" controls poster="assets/images/car_tesla.svg" width="720">
   Your browser does not support the video tag.
 </video>
 
